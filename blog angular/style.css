@@ -1,0 +1,113 @@
+/* header */
+header {
+    margin-bottom: 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  /* jumbotron */
+
+  .jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+
+
+/* geral */
+body {
+  font-family: Arial, sans-serif; 
+}
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+/* cards */
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Garante que todos os cards tenham a mesma altura */
+  margin-bottom: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  max-height: 200px; 
+  object-fit: cover;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.card-body {
+  padding: 1.25rem;
+  flex: 1;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  text-align: justify;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 1rem;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #f8f9fa;
+  border-bottom-left-radius: 40px; /* Ajustado para combinar com o topo do card */
+  border-bottom-right-radius: 40px; /* Ajustado para combinar com o topo do card */
+}
+
+.card-footer .btn {
+  width: 100%; /* Botões ocupam toda a largura do footer */
+  height: 100%; /* Garante que todos os botões tenham a mesma altura */
+}
+
+.card:hover {
+  transform: translateY(-5px); /* Efeito de levantar o card */
+  transition: transform 0.2s ease-in-out;
+}
+
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #343a40;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
